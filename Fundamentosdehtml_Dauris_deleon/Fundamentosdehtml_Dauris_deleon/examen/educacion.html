@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+<!--1. Logo SVG utiliza algunas de las herramientas SVG en línea para diseñar
+el logo con tus iniciales, utiliza los colores y formas que prefieras.-->
+
+<!--2. Título aquí te sugerimos coloques el título de tu documento,
+"Hoja de Vida" o "Curriculum Vitae" o "Resumen Curricular". utilizando
+la etiqueta h1.-->
+
+    <header>
+      <img src="images/nombre.svg" alt="Nombre de la Imagen" width="300px">
+      <h1>Resumen Curricular</h1>
+    </header>
+
+<!--3.Datos Personales indica tus nombres, apellidos, fecha y
+lugar de nacimiento utilizando las etiquetas h2 y h3-->
+
+    <section>
+        <h2>NOMBRE</h2>
+        <h3>Dauris Manuel </h3>
+
+        <h2>APELLIDO</h2>
+        <h3>De Leon Castillo </h3>
+
+        <h2>FECHA Y LUGAR DE NACIMIENTO</h2>
+        <h3>18/07/1989 </h3>
+        <h3>San Juan de la Maguana, Rep. Dominicana </h3>
+
+<!--4.Enlaces de menú básico para enlazar las tres páginas que tiene tu proyecto:
+Inicio (index.html), educación (educacion.html), experiencia (experiencia.html).-->
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+
+<!--5.Incorpora un título en h2 Educación.-->
+
+    <h2>EDUCACION</h2>
+
+<!--6.Codifica una Tabla de 4 columnas (Año, Institución, Lugar, ¿Culminó?)
+por 3 filas (o más si deseas) para indicar los datos sobre tus certificados,
+cursos, título, entre otros.-->
+
+    <table border="1">
+        <tr>
+          <th>AÑO</th>
+          <th>INSTITUCION</th>
+          <th>LUGAR</th>
+          <th>¿CULMINO?</th>
+        </tr>
+
+        <tr>
+          <td>2005</td>
+          <td>Incote</td>
+          <td>San Juan de la Maguana</td>
+          <td>Si</td>
+        </tr>
+
+        <tr>
+          <td>2005</td>
+          <td>Incote</td>
+          <td>San Juan de la Maguana</td>
+          <td>Si</td>
+        </tr>
+
+        <tr>
+          <td>2005</td>
+          <td>Incote</td>
+          <td>San Juan de la Maguana</td>
+          <td>Si</td>
+        </tr>
+
+      </table>
+
+<!--7.Dibuja un Formulario titulado "Agregar Estudios" con los siguientes elementos:-->
+<br>
+        <!--Una lista desplegable para el Año.-->
+  <form>
+    <fieldset>
+      <legend>"Agregar Estudios"</legend>
+        <label><strong>Año</strong></label>
+
+          <select>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+          </select>
+
+        <!--Una caja de entrada de texto para Institución, agrega la validación de campo requerido.-->
+
+      <p>
+        <label for="institucion"><strong>Institucion</strong></label>
+        <input type="text" name="institucion" value="" id="institucion" required="">
+      </p>
+
+      <!--Una caja de entrada de texto largo para Lugar.-->
+
+      <p>
+        <label for="lugar"><strong>Lugar</strong></label>
+        <input type="text" name="lugar" value="" id="lugar">
+      </p>
+
+      <!--Un radio button para las alternativas de ¿Culminó? -->
+
+      <p>
+        <label for="culmino"><strong>¿Culmino?</strong>
+        <input type="radio" name="culmino" value="" id="culmino"> Si
+        <input type="radio" name="culmino" value="" id="culmino"> no
+      </p>
+
+      <!-- Un botón "Enviar".-->
+
+      <p>
+        <label for="enviar">
+        <input type="submit" name="enviar" value="Enviar" id="enviar">
+      </p>
+
+    </fieldset>
+  </form>
+</section>
+
+<!--8 Pie de Página en esta sección debes colocar información de contacto
+ como: correo eléctrónico, teléfono, redes sociales o dirección.-->
+
+<footer>
+  <p>&copy; Dauris Manuel - Todos los derechos reservados. / Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
+    <p>Correo Electronico: <a href="mailto:dscreatived@gmail.com">dscreatived@gmail.com</a></p>
+      <p>Telefono: (809) 605-8340 </p>
+        <address> Calle San Pablo, No.42, Urb. Tropical , Km. 7/12</address>
+
+  <a href="https://www.facebook.com">
+    <img src="images/face.svg" alt="Facebook" width="80px">
+    </a>
+
+  <a href="https://www.twitter.com">
+    <img src="images/twitter.svg" alt="Twitter" width="80px">
+      </a>
+        <br>
+
+</footer>
+
+  </body>
+  </html>
